@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(127, 187, 255, 0.589);
+}
+nav ul {
+  margin: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  
+  color: black;
+}
+.bio {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.bio .tarea {
+  width: 50%;
+  text-align: center;
+}
+
+.bio img {
+  border-radius: 20px;
+}
+form {
+  width: 80%;
+  /* border: 2px solid grey; */
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer{
+    border-top: 1px solid grey;
+    font-weight: bold;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+}
